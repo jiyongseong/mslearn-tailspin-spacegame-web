@@ -24,11 +24,12 @@ namespace Tests
             }
         }
 
-        [TestCase("Milky Way1")]
+        [TestCase("Milky Way")]
         [TestCase("Andromeda")]
         [TestCase("Pinwheel")]
         [TestCase("NGC 1300")]
         [TestCase("Messier 82")]
+        [TestCase("Goyang")]
         public void FetchOnlyRequestedGameRegion(string gameRegion)
         {
             const int PAGE = 0; // take the first page of results
